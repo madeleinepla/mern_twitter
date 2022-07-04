@@ -4,7 +4,7 @@
   "description": "A Twitter clone built with the MERN stack",
   "main": "app.js",
   "scripts": {
-    "start": "NODE_ENV=production node ./app",
+    "start": "node app.js",
     "server": "nodemon app.js",
     "debug": "nodemon --inspect app.js",
     "frontend-install": "npm install --prefix frontend",
