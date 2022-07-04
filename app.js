@@ -8,6 +8,8 @@ const passport = require('passport');
 const users = require("./routes/api/users");
 const tweets = require("./routes/api/tweets");
 
+console.log("hello")
+console.log(process.env.NODE_ENV)
 mongoose
   .connect(db, { useNewUrlParser: true })
   .then(() => console.log("Connected to MongoDB successfully"))
